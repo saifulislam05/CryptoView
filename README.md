@@ -2,6 +2,8 @@
 
 CryptoView is a web application that allows users to view information about various cryptocurrencies in real-time.
 
+## Demo
+View live [CryptoView](https://cryptoview-bysaiful.netlify.app/)
 ## Features
 
 - View information about top cryptocurrencies.
