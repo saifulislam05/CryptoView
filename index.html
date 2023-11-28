@@ -14,19 +14,20 @@
     <link rel="stylesheet" href="/styles/custom.css">
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <script defer src="script.js"></script>
+    <script defer src="/js/navigate.js"></script>
+    <script defer src="/js/home.js"></script>
 
 </head>
 
 <body class=" w-screen overflow-x-hidden relative">
     <header class="bg-base-300 h-">
-        <div class="navbar w-11/12 mx-auto ">
-            <div class="flex-1 gap-2">
-                <img class="w-8" src="https://img.icons8.com/?size=256&id=63192&format=png" alt="" srcset="">
-                <a class=" text-2xl font-bold">CryptoView</a>
+        <div class="navbar w-11/12 mx-auto">
+            <div id="main-title" class="flex-1 gap-2 cursor-pointer">
+                <img class="w-8" src="https://img.icons8.com/?size=256&id=63192&format=png" alt="" srcset="" />
+                <a class="text-2xl font-bold">CryptoView</a>
             </div>
             <div class="flex-none gap-2">
-                <button class="btn btn-neutral btn-xs text-base px-8">Search</button>
+                <button id="nav-search-button" class="btn btn-neutral text-base px-8">Search</button>
                 <div class="dropdown dropdown-end">
                     <label tabindex="0" class="btn btn-ghost btn-circle avatar">
                         <div class="w-10 rounded-full">

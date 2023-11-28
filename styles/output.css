@@ -1839,6 +1839,22 @@ html {
   margin-top: 0.75rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -1896,6 +1912,14 @@ html {
   width: 100vw;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
+}
+
 .min-w-\[25rem\] {
   min-width: 25rem;
 }
@@ -1920,8 +1944,16 @@ html {
   flex: none;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .flex-row {
   flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .flex-nowrap {
@@ -1993,6 +2025,11 @@ html {
 .bg-base-300 {
   --tw-bg-opacity: 1;
   background-color: var(--fallback-b3,oklch(var(--b3)/var(--tw-bg-opacity)));
+}
+
+.bg-base-200 {
+  --tw-bg-opacity: 1;
+  background-color: var(--fallback-b2,oklch(var(--b2)/var(--tw-bg-opacity)));
 }
 
 .p-2 {
