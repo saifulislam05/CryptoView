@@ -16,7 +16,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script defer src="/js/navigate.js"></script>
-    <script defer src="/js/search.js"></script>
+    <script defer src="/js/detail.js"></script>
 </head>
 
 <body class="w-screen overflow-x-hidden relative">
@@ -50,14 +50,29 @@
         </div>
     </header>
     <!-- search input  -->
-    <div class="search w-fit mx-auto flex gap-3 my-2">
-        <input id="search_input" type="text" placeholder="Search here" class="input input-bordered w-full max-w-xs" />
-        <button id="search_btn" class="btn btn-neutral">Search</button>
-    </div>
-    <!-- search output  -->
-    <div class="search-result w-10/12 mx-auto mt-6 flex flex-col gap-2" id="search-results">
+    <section id="details_wrapper">
 
-    </div>
+        <div class="flex-container">
+            <img class="main-img" src="https://assets.coingecko.com/coins/images/16547/large/photo_2023-03-29_21.47.00.jpeg?1696516109"
+            id="coin-logo" alt="Coin Logo" >
+        <div class="main-contents">
+            <h1 class="mb-1 text-xl font-semibold text-success" id="coin-name">Arbitrum (ARB)</h1>
+
+            <div class="flex-container space-around mb-1 mt-1">
+                <p>₹ <span id="inr-price">85.1</span></p>
+                <p>$ <span id="usd-price">1.021</span></p>
+                <p>€ <span id="eur-price">0.927819</span></p>
+                <p>£ <span id="gbp-price">0.803338</span></p>
+            </div>
+
+            <h3 class="mt-1 font-bold">Description:</h3>
+            <p id="coin-description">Arbitrum is one of the leading Ethereum scaling solutions bringing cheap
+                transactions to tens of thousands of users in an environment that feels very similar to Ethereum. It is
+                an optimistic rollup and the leading L2 in terms of TVL. Some of the largest dApps live on Arbitrum
+                include GMX, Radiant, Uniswap V3, and Gains Network.</p>
+        </div>
+        </div>
+    </section>
     <!-- Footer section  -->
     <footer class="footer footer-center p-4 bg-base-300 text-base-content mt-3 fixed w-full bottom-0">
         <aside>
